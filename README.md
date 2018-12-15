@@ -30,6 +30,6 @@ The solver will print into the stdout the following information:
 7. Number of expanded nodes per second. 
 8. Total Search Time, in seconds.
 
-Input and Output handling are coded by Grady Fitzpatrick (grady.fitzpatrick@unimelb.edu.au)
+Input and Output handling are coded by Grady Fitzpatrick (grady.fitzpatrick@unimelb.edu.au).
 Soving Algorithm and heuristic are coded by Xiuge Chen (xiugec@student.unimelb.edu.au)
 15/12/2018
