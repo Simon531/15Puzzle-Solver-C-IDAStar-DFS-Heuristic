@@ -1,4 +1,4 @@
-# 15Puzzle-Solver-IDAStar-DFS-Heuristic-
+# 15Puzzle-Solver-IDAStar-DFS-Heuristic
 Assignment project from course Algorithm and Data Structure (University of Melbourne, 2018 Sem2), teached and guided by Nir Lipovetzky(nir.lipovetzky@unimelb.edu.au) and Grady Fitzpatrick(grady.fitzpatrick@unimelb.edu.au)
 
 A solver for the 15–puzzle, take a sequence of states, returns the optimal number of operation needed to get the puzzle in form:
