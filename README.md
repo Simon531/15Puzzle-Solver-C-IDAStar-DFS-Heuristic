@@ -1,6 +1,8 @@
 # 15Puzzle-Solver-IDAStar-DFS-Heuristic
 
-The second project of subject Algorithm and Data Structure [COMP20003](https://handbook.unimelb.edu.au/2020/subjects/comp20003) at University of Melbourne, 2018 Sem2.
+* The second project of subject [COMP20003](https://handbook.unimelb.edu.au/2020/subjects/comp20003) (Algorithm and Data Structure) at University of Melbourne, 2018 Sem2.
+
+## Introduction
 
 A solver for the 15–puzzle, take a sequence of states, returns the optimal number of operation needed to get the puzzle in form:
 B  1  2  3
@@ -16,11 +18,13 @@ Use Iterative Deepening A* (IDA*) algorithm which follows the Depth-first search
 
 The other heuristics being used to prune the search space is the sum of Manhattan distances, Linear Conflict and Last Move Heuristic. Most of these works are based on "Finding Optimal Solutions to the Twenty-Four Puzzle" by Richard E. Korf and Larry A. Taylor http://www.aaai.org/Papers/AAAI/1996/AAAI96-178.pdf
 
-Input:
+## Usage 
+
+**Input**:
 Must be solveable!!! Solver has to read the initial configuration from a file called "1.puzzle" with the same format as it appears in the table, that is, a single line, containing a sorted list of indexes separated by a blank space. For example:
 14 13 15 7 11 12 9 5 6 0 2 1 4 8 10 3
 
-Output:
+**Output**:
 The solver will print into the stdout the following information: 
 1. Initial state of the puzzle.
 2. h(s0) heuristic estimate for the initial state.
@@ -31,6 +35,10 @@ The solver will print into the stdout the following information:
 7. Number of expanded nodes per second. 
 8. Total Search Time, in seconds.
 
+## Contributions
+
 Input and Output handling are coded by Grady Fitzpatrick (grady.fitzpatrick@unimelb.edu.au).
+
 Soving Algorithm and heuristic are coded by Xiuge Chen (xiugec@student.unimelb.edu.au)
+
 15/12/2018
